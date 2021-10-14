@@ -13,5 +13,5 @@ size[0] = ancho
 size[1] = alto
 
 # Ejercicio de Clase 4
-titulo = input("Need for speed")
+titulo = input("Título del juego: ")
 main2(size, titulo)
