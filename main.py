@@ -11,4 +11,7 @@ ancho = int(input("Ancho de la pantalla: "))
 alto = int(input("Alto de la pantalla: "))
 size[0] = ancho
 size[1] = alto
-main2 (size)
+
+# Ejercicio de Clase 4
+titulo = input("Need for speed")
+main2(size, titulo)
