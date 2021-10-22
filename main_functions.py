@@ -40,6 +40,11 @@ def main2(size, titulo, fondo):
             car.turn(-1)
         if keys[pygame.K_RIGHT]:
             car.turn(1)
+
+        # Ejercicio de Clase 5:
+        if keys[pygame.K_q]:
+            break
+
         # print(t)
         # inputKey = input('press a key')
         # gameLoop(inputKey,car,screen)
